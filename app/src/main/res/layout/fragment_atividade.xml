@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufpe.cin.vjsl.projium.AtividadeFragment">
+
+
+    <TextView
+        android:text="Lista de Atividades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:id="@+id/textView16"
+        android:textSize="18sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp">
+        <TableRow android:id="@+id/titulo">
+            <TextView
+                android:text="Disciplina"
+                android:gravity="center"
+                android:padding="3dip" />
+            <TextView
+                android:text="Atividade"
+                android:gravity="center"
+                android:padding="3dip" />
+            <TextView
+                android:text="Fizeram"
+                android:gravity="center"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow android:id="@+id/linha1exercicios">
+            <TextView
+                android:text="Inglês"
+                android:gravity="center"
+                android:padding="3dip" />
+            <TextView
+                android:text="Verb To Be"
+                android:gravity="center"
+                android:padding="3dip" />
+            <TextView
+                android:text="3 Alunos"
+                android:gravity="center"
+                android:padding="3dip" />
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>

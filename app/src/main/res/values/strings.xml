@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Projeto IUM</string>
+
+    <string name="navigation_drawer_open">Abrir barra de navegação</string>
+    <string name="navigation_drawer_close">Fechar barra de navegação</string>
+
+    <string name="action_settings">Configurações</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_message">Olá, </string>
+</resources>

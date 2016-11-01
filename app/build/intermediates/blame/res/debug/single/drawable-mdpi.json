@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_menu_school.png",
+        "source": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/generated/res/pngs/debug/drawable-mdpi/ic_menu_school.png"
+    },
+    {
+        "merged": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_people_details.png",
+        "source": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/generated/res/pngs/debug/drawable-mdpi/ic_people_details.png"
+    },
+    {
+        "merged": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_account_circle.png",
+        "source": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/generated/res/pngs/debug/drawable-mdpi/ic_account_circle.png"
+    },
+    {
+        "merged": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_menu_home.png",
+        "source": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/generated/res/pngs/debug/drawable-mdpi/ic_menu_home.png"
+    },
+    {
+        "merged": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/intermediates/res/merged/debug/drawable-mdpi/book_open_variant.png",
+        "source": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/generated/res/pngs/debug/drawable-mdpi/book_open_variant.png"
+    }
+]

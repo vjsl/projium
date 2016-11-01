@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/book_open_variant.xml",
+        "source": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/generated/res/pngs/debug/drawable-anydpi-v21/book_open_variant.xml"
+    },
+    {
+        "merged": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_school.xml",
+        "source": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_school.xml"
+    },
+    {
+        "merged": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_account_circle.xml",
+        "source": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_account_circle.xml"
+    },
+    {
+        "merged": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_people_details.xml",
+        "source": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_people_details.xml"
+    },
+    {
+        "merged": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_home.xml",
+        "source": "/home/vitor/AndroidStudioProjects/ProjIUM/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_home.xml"
+    }
+]

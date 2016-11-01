@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="br.ufpe.cin.vjsl.projium.TurmasFragment">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/welcomeMessage"
+            android:text="@string/welcome_message"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:stretchColumns="1"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="22dp"
+            android:id="@+id/tabela_turmas">
+            <TableRow>
+                <TextView
+                    android:text="Disciplina"
+                    android:gravity="left"
+                    android:padding="3dip"
+                    android:textSize="16sp" />
+                <TextView
+                    android:text="Escola"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textSize="16sp" />
+                <TextView
+                    android:text="Sala"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/linha1">
+                <TextView
+                    android:text="Inglês"
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="CAC - UFPE"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    tools:clickable="false" />
+                <TextView
+                    android:text="A014"
+                    android:gravity="center"
+                    android:padding="3dip" />
+
+            </TableRow>
+            <TableRow android:id="@+id/linha2">
+                <TextView
+                    android:text="Francês"
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="CTG - UFPE"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="E406"
+                    android:gravity="center"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow android:id="@+id/linha3">
+                <TextView
+                    android:text="Italiano"
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="CCSA - UFPE"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="A014"
+                    android:gravity="center"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow android:id="@+id/linhafour">
+                <TextView
+                    android:text="Espanhol"
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="Colégio de Aplicação"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="B114"
+                    android:gravity="center"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow android:id="@+id/linhafive">
+                <TextView
+                    android:text="Inglês"
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="Colégio de Aplicação"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="B115"
+                    android:gravity="center"
+                    android:padding="3dip" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:text="Gostaria de cadastrar novas turmas?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_cadastrar_turmas"
+            android:layout_below="@+id/welcomeMessage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp" />
+
+        <TextView
+            android:text="Suas turmas cadastradas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:id="@+id/textView10"
+            android:layout_below="@+id/btn_cadastrar_turmas"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</ScrollView>
+

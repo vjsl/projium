@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Início" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_school"
+            android:title="Turmas" />
+
+        <item
+            android:id="@+id/nav_atividades"
+            android:icon="@drawable/book_open_variant"
+            android:title="Atividades" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Gerenciar seus dados" />
+        <item
+            android:id="@+id/nav_aboutme"
+            android:icon="@drawable/ic_account_circle"
+            android:title="Dados pessoais" />
+    </group>
+
+    <item android:title="Comunicação"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartilhar seus resultados" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Gravar dados nos servidores" />
+        </menu>
+    </item>
+
+</menu>

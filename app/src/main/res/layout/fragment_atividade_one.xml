@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufpe.cin.vjsl.projium.AtividadeOneFragment">
+
+
+    <TextView
+        android:text="Exercício: Verb To Be"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textView18"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="1) The buses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textView19"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/resposta1"
+        android:layout_alignBaseline="@+id/textView19"
+        android:layout_alignBottom="@+id/textView19"
+        android:layout_toEndOf="@+id/textView19"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="green."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView19"
+        android:layout_toEndOf="@+id/resposta1"
+        android:id="@+id/textView20"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="2) People"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resposta1"
+        android:layout_alignStart="@+id/textView19"
+        android:id="@+id/textView21"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/resposta2"
+        android:layout_below="@+id/textView19"
+        android:layout_toEndOf="@+id/textView21"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="happy today."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView21"
+        android:layout_toEndOf="@+id/resposta2"
+        android:id="@+id/textView22"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="3) Their friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resposta2"
+        android:layout_alignStart="@+id/textView21"
+        android:id="@+id/textView23"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/resposta3"
+        android:layout_alignBaseline="@+id/textView23"
+        android:layout_alignBottom="@+id/textView23"
+        android:layout_toEndOf="@+id/textView23"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="happy today."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView23"
+        android:layout_toEndOf="@+id/resposta3"
+        android:id="@+id/textView24"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="4) I"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resposta3"
+        android:layout_alignStart="@+id/textView23"
+        android:id="@+id/textView25"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/resposta4"
+        android:layout_alignBaseline="@+id/textView25"
+        android:layout_alignBottom="@+id/textView25"
+        android:layout_toEndOf="@+id/textView25"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="a teacher."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView25"
+        android:layout_toEndOf="@+id/resposta4"
+        android:id="@+id/textView26"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="5) You"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resposta4"
+        android:layout_alignStart="@+id/textView25"
+        android:id="@+id/textView27"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView26"
+        android:layout_toEndOf="@+id/textView27"
+        android:id="@+id/resposta5"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="students."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView27"
+        android:layout_toEndOf="@+id/resposta5"
+        android:id="@+id/textView28"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="Verificar Suas Respostas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resposta5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp"
+        android:id="@+id/btn_atividade_testar" />
+
+</RelativeLayout>

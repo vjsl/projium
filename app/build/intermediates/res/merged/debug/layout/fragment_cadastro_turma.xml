@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufpe.cin.vjsl.projium.CadastroTurmaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:text="Cadastre as disciplinas que leciona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Disciplina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="35dp"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:id="@+id/txtDisciplina"
+        android:hint="Digite o nome da disciplina"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <TextView
+        android:text="Escola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDisciplina"
+        android:layout_alignStart="@+id/txtDisciplina"
+        android:layout_marginTop="28dp"
+        android:id="@+id/textView5" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:id="@+id/txtEscola"
+        android:hint="Digite o nome da escola"
+        android:layout_alignEnd="@+id/txtDisciplina" />
+
+    <TextView
+        android:text="Sala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/txtEscola"
+        android:id="@+id/textView6" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:id="@+id/txtSala"
+        android:hint="Nome ou número da sala" />
+
+    <TextView
+        android:text="Horário"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/txtSala"
+        android:layout_alignStart="@+id/txtSala" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:id="@+id/editText4"
+        android:hint="Ex. Ter e Qui 15 - 17h"
+        android:layout_alignEnd="@+id/txtEscola" />
+
+    <Button
+        android:text="Salvar!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:id="@+id/button" />
+
+</RelativeLayout>

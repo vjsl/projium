@@ -1,0 +1,128 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="br.ufpe.cin.vjsl.projium.TurmaOneFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:text="Horário: Quintas 13 - 15h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView12"
+            android:layout_alignStart="@+id/textView12"
+            android:id="@+id/textView15"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Disciplina: Espanhol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="13dp"
+            android:id="@+id/textView11"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Escola: Colégio de Aplicação - UFPE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView11"
+            android:layout_alignStart="@+id/textView11"
+            android:id="@+id/textView12"
+            android:textSize="18sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/textView14"
+            android:layout_alignParentStart="true">
+            <TableRow>
+                <TextView
+                    android:text="Alunos"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="Pontuação"
+                    android:gravity="right"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Thasjen Thaself"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="75"
+                    android:gravity="right"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Ethelfled Lacha"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="80"
+                    android:gravity="right"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Hesbard Ierba"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="70"
+                    android:gravity="right"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Jackchard Ronald"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="85"
+                    android:gravity="right"
+                    android:padding="3dip" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:text="Sala: B114"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:textSize="18sp"
+            android:layout_below="@+id/textView15"
+            android:layout_alignStart="@+id/textView15" />
+
+        <TextView
+            android:text="Lista de Alunos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:id="@+id/textView14"
+            android:textSize="16sp"
+            android:layout_below="@+id/button2"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:text="Adicionar alunos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:layout_below="@+id/textView13"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp" />
+    </RelativeLayout>
+
+</ScrollView>
+
+
